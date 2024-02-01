@@ -42,5 +42,7 @@ int main( ){
     printf("%d\n",ch10);
 
 
+    // only one character is valid  
+    // char ch = 'ab' is invalid
     return 0;
 }

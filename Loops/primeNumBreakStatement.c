@@ -8,14 +8,12 @@ int main( ){
     for(int i=2; i<=n-1; i++){
         if(n%i==0){   // i is a factor of n
             a = 1;
-            break;  // Its is used for terminating
+            break;  // Its is used for terminating  or breaking the loop instead of running it again and again
         }
     }
-        if(a==1){
-            printf("The number you entered is composite");
-        }
-        else{
-            printf("The number you entered is prime");
-        }
+    if(n==1 || n==0) printf("%d is neither prime nor composite",n);
+    else if(a==1)  printf("The number you entered is composite"); 
+    else printf("The number you entered is prime");
+        
     return 0;
 }

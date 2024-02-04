@@ -8,7 +8,7 @@ int main( ){
         * * * * 
     */
    int n;
-   printf("Enter number of rows : ");
+   printf("Enter number of rows or columns : ");
    scanf("%d",&n);
 
    for(int i=1; i<=n; i++){

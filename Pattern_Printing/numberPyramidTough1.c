@@ -8,9 +8,7 @@ int main( ){
     1                1
     */
 
-   // incomplete
 
-   
    int n;
    printf("Enter number of rows : ");
    scanf("%d",&n);
@@ -32,18 +30,12 @@ int main( ){
         for(int k=1; k<=nsp; k++){
             printf("  ");
         }
-        for(int l=1; l<=nst; l++){
-            if(a>=n){
-                a--;
-            }
-            printf("%d ",a);
-            a--;
+        for(int l=n-i; l>=1; l--){
+            printf("%d ",l);
         }
         nst--;
         nsp+=2;
         printf("\n");
    }
-
-
     return 0;
 }

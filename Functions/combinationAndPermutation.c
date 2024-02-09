@@ -21,7 +21,7 @@ int main( ){
     
     int ncr = factorial(n) / (factorial(r) * factorial(n-r));
     printf("combination = %d\n",ncr);
-    int npr = factorial(n) / factorial(r);
+    int npr = factorial(n) / factorial(n-r);
     printf("permutation = %d",npr);
     return 0;
 }

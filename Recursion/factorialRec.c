@@ -1,7 +1,8 @@
 #include <stdio.h>
 int factorial(int n){
-    if(n==1) return 1;   // Base case
-    return n*factorial(n-1);
+    if(n==1 || n==0) return 1;   // Base case
+    int recAns = n*factorial(n-1) ;
+    return recAns ;
 }
 int main( ){
     int n;

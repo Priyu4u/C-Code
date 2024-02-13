@@ -7,7 +7,7 @@ void increasing(int x,int n){
 
 }
 int main( ){
-    // Print 1 to n using recursion
+    // Print 1 to n using recursion(using extra parameter)
     int n;
     printf("Enter a number : ");
     scanf("%d",&n);

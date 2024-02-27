@@ -9,7 +9,7 @@ int main( ){
         printf("Enter element %d : ",i+1);
         scanf("%d",&arr[i]);
     }
-    int arrCopy[n] ;
+    int arrCopy[n] ; 
     for(int i=n-1; i >= 0; i--){
         arrCopy[n-1-i] = arr[i] ;
     }

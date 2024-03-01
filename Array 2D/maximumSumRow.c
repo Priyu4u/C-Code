@@ -23,7 +23,7 @@ int main( ){
             max = sum ;
             maxRow = i ;
         } 
-    }
+    } 
     printf("%d-th row has maximum sum which is %d",maxRow+1, max) ;
     return 0;
 } 

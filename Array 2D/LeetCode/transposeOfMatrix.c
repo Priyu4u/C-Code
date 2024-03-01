@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main( ){
-    // WAP to print the transpose of the matrix entered by the user and store it in separate matrix .(Leetcode - 867)
+    // WAP to print the transpose of the matrix entered by the user and store it in separate matrix .
     int r ,c ;
     printf("Enter number of rows : ") ;
     scanf("%d",&r) ;

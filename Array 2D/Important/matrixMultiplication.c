@@ -28,7 +28,6 @@ int main( ){
         }
     }
     int rest[r1][c2] ;
-    int cr = r2 ;
     // multiplying
     if(c1==r2){
         for(int i=0; i<r1; i++){
@@ -36,7 +35,7 @@ int main( ){
                 //    i-th row of arr[ ][ ] and j-th column of brr[ ][ ]
                 //  (arr[i][0] , arr[i][1] , arr[i][2] .... ) * (brr[0][j] , brr[1][j] , brr[2][j] .... )
                 rest[i][j] = 0;
-                for(int k=0; k<cr; k++){
+                for(int k=0; k<r2; k++){
                     rest[i][j] = rest[i][j] + arr[i][k] * brr[k][j] ;
                 }
             } 

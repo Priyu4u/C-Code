@@ -39,7 +39,7 @@ int main( ){
                     rest[i][j] = rest[i][j] + arr[i][k] * brr[k][j] ;
                 }
             } 
-        }
+        } 
         printf("Matrix 1 multiplied by Matrix 2 :\n");
         for(int i=0; i<r1; i++){
             for(int j=0; j<c2; j++){

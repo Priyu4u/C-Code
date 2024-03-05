@@ -53,7 +53,6 @@ int main( ){
         printf("Multiplication is not possible\n");
     }
     
-    // printing
     
     return 0;
 }

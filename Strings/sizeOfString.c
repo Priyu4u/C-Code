@@ -13,6 +13,7 @@ int main( ){
     for(int i=0; str[i] != '\0'; i++){
         size++ ;
     }
+
     printf("Size of this string is %d",size) ;
     return 0;
 }

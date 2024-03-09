@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 int main( ){
     // how to find the size of an array which is taken as input by the user 
     char str[40] ;  

@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 int main( ){
     // take a string input from user and print it's reverse
     char str[40] ;
@@ -10,6 +11,7 @@ int main( ){
     for(int i=0; str[i] != '\0' ; i++){
         size++;
     } 
+    // code for reversing
     for(int i=0, j=size-1; i<j; i++,j--){
         char temp = str[i] ;
         str[i] = str[j] ;
@@ -17,6 +19,6 @@ int main( ){
     }
 
     printf("The reverse of this string is : ") ;   // automatically gives a \n 
-    puts(str) ;
+    puts(str) ; 
     return 0;
 } 

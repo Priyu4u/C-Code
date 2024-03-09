@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 int main( ){
     // we get another way of initialising strings
     char *ptr = "Priyanshu Gupta" ;

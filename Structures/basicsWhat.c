@@ -6,7 +6,7 @@ int main( ){
         int speed;
         int attack;
         char tier ;        // G S A B C D
-    } ;  // -> semicolon is mendatory in structures
+    } /* we can also declare variables here like - pikachu, charizard, mewtwo */ ;  // -> semicolon is mendatory in structures
 
     struct pokemon pikachu ;
     pikachu.hp = 50 ;

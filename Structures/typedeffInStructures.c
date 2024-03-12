@@ -10,7 +10,7 @@ int main( ){
     } book ; 
     
     book doglapan ;         // -> valid
-    struct atomicHabits ;
+    struct book atomicHabits ; 
 
 
     return 0;

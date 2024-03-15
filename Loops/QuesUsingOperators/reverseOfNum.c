@@ -13,4 +13,4 @@ int main( ){
     }
     printf("The reverse of given number is %d",reverse);
     return 0;
-}
+}  

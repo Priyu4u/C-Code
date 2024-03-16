@@ -17,8 +17,8 @@ int main( ){
     int j = n - 1;
     while(i < j){
         if(arr[i] + arr[j] == targetSum){
-            printf("%d %d\n",arr[i] , arr[j]) ;
-            break;
+            printf("%d + %d = %d\n",arr[i] , arr[j],targetSum) ;
+            break;  
         }
         else if(arr[i] + arr[j] > targetSum){
             j-- ;

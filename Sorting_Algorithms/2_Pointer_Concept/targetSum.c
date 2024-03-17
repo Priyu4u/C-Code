@@ -23,7 +23,7 @@ int main( ){
         else if(arr[i] + arr[j] > targetSum){
             j-- ;
         }
-        if(arr[i] + arr[j] < targetSum){
+        else{
             i++;
         }
     }

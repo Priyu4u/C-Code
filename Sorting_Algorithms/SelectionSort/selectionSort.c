@@ -24,7 +24,7 @@ int main(){
         int temp = arr[i] ;
         arr[i] = arr[minIdx] ;
         arr[minIdx] = temp ;
-    }
+    } 
 
     // printing sorted array
     printf("Sorted Array : \n");

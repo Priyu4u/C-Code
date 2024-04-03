@@ -15,6 +15,7 @@ int main( ){
     }
     */
 
+
    // Write a program to input week number(1-7) and print day of week name using switch case
    int n;
    printf("Enter day number(1-7) : ");
